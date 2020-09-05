@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arian Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/794e51041b.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+
+</head>
+<body>
+    <button id="back-to-top-btn"> <i class="fas fa-arrow-up"></i> </button>
+    <header>
+        <img src="./img/logo.jpg" alt="arian_logo" class="logo">
+        <nav class="nav">
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#achievements" class="nav__link">Accomplishments</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Arian Salehi Abari</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Programmer</p>
+
+            <img src="img/arian.jpg" alt="a picture of Arian Salehi Abari" class="intro__img">
+        </section> 
+
+        <!-- My achievements -->
+        <section class="my-achievements" id="achievements">
+            <h2 class="section__title section__title--achievements">Accomplishments</h2>
+
+            <div class="achievements">
+                <div class="achievement">
+                    <img src="./img/medal.png" alt="nodet" class="img__achievements">
+                    <h3 class="subtitle__achievements">Bronze medalist of Iran's National Mathematics Olympiad 
+                    </h3>
+                </div>  <!-- / achievement -->
+
+                <div class="achievement">
+                    <a href="https://en.wikipedia.org/wiki/Iran%27s_National_Elites_Foundation" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/image.png" alt="nodet" class="img__achievements">
+                    </a>
+                    <h3 class="subtitle__achievements">Member of Iran's National Elites Foundation (2016)
+                    </h3>
+                </div>  <!-- / achievement -->
+
+                <div class="achievement">
+                    <a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/nodet.jpg" alt="nodet" class="img__achievements">
+                    </a>
+                    <h3 class="subtitle__achievements">Accepted in
+                            <a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents" target="_blank" rel="noopener noreferrer"> 
+                                <span class="more_info"> NODET </span> 
+                            </a> 
+                    </h3>
+                </div>  <!-- / achievement -->
+            </div>
+            
+            <!-- / achievements-->
+            <a href="index.html#work" class="bttn">My work</a>
+
+        </section>
+
+            <!-- About me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Computer Science student </p>
+
+                <div class="about-me__body">
+                    <p>  I'm an international Computer Science student at York University, with one year experience of in Peer Tutoring at Bethune College, York University.</p>
+                    <p>Aside from the school courses, I've spent time doing personal programming projects, which you can check some of them
+                        <a href="index.html#work" rel="noopener noreferrer"> 
+                            <span class="more_info"> here. </span> 
+                        </a> 
+                    </p>
+                    <p>I'm fueled by a passion for exploring different concepts of Computer Science and programming.</p>
+                    <p> Hunger for knowledge and determination to learn new things has contributed to my recent success for being identified as a high achieving student in the <strong> top 15% </strong> of the Computer Science Program at York University.</p>
+                    <p>I'm now a third-year student and am looking for a <strong> Co-op position for Winter 2021 </strong></p>
+                </div>
+
+                <img src="img/arian2.jpg" alt="Arian" class="about-me__img">
+            </section>
+
+
+            <!-- My work -->
+            <section class="my-work" id="work">
+                <h2 class="section__title">My work</h2>
+                <h3 class="section__subtitle--work">My projects</h3>
+
+                <div class="projects">
+                    
+                  <!-- Project 1 -->
+                    <div class="item">
+                      <div class="projectimg">
+                        <a href="https://salehiarian.github.io/2048/" target="_blank">                          
+                          <img class="project_img" src="./img/2048.jpg" alt="2048" />
+                        </a>
+                      </div>
+                      <div class="project_info">
+                        <i class="fab fa-js"></i> 2048
+                      </div>
+                      <a href="https://salehiarian.github.io/2048/" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a>
+                    </div>
+                    <!-- / Project 1 -->
+
+                    <!-- Project 2 -->
+                    <div class="item">
+                      <div class="projectimg">
+                        <a href="https://salehiarian.github.io/minesweeper/" target="_blank">                          
+                          <img class="project_img" src="./img/minesweeper.jpg" alt="Minesweeper" />
+                        </a>
+                      </div>
+                      <div class="project_info">
+                        <i class="fab fa-js"></i> Minesweeper
+                      </div>
+                      <a href="https://salehiarian.github.io/minesweeper/" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a>
+                    </div>
+                    <!-- / Project 2 -->
+
+                    <!-- Project 3 -->
+                    <div class="item">
+                      <div class="projectimg">
+                        <a href="https://github.com/arianSalehiAbari/Face-Recognition" target="_blank">                          
+                          <img class="project_img" src="./img/face_recognition.jpg" alt="Face_Recognition" />
+                        </a>
+                      </div>
+                      <div class="project_info">
+                        <i class="fab fa-python"></i> Face Recognition
+                      </div>
+                      <a href="https://github.com/arianSalehiAbari/Face-Recognition" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a>
+                    </div>
+                    <!-- / Project 3 -->
+                    
+                    <!--  Project 4 -->
+                    <div class="item">
+          
+                      <div class="projectimg">
+                        <a href="https://github.com/arianSalehiAbari/Snake-game" target="_blank">
+                          <img class="project_img" src="./img/snake.png" alt="Snake_game" />
+                        </a>
+                      </div>
+                      <div class="project_info">
+                        <i class="fab fa-python"></i> Snake-game
+                      </div>
+                      <a href="https://github.com/arianSalehiAbari/Snake-game" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a>
+                    </div>
+                    <!-- / Project 4 -->
+
+                    <!--  Project 5 -->
+                    <div class="item">
+                      
+                      <div class="projectimg">
+                        <a href="https://github.com/arianSalehiAbari/Sudoku" target="_blank">
+                          <img class="project_img" src="./img/sudoku.png" alt="Sudoku_game" />
+                        </a>
+                      </div>
+                      
+                      <div class="project_info">
+                        <i class="fab fa-python"></i> Sudoku-game
+                      </div>
+                      <a href="https://github.com/arianSalehiAbari/Sudoku" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a>
+                    </div>
+                    <!-- / Project 5 -->
+
+                    <!-- Project 6 -->
+                    <div class="item">
+                      
+                      <div class="projectimg">
+                        <a href="https://github.com/arianSalehiAbari/Pong" target="_blank">
+                          <img class="project_img" src="./img/pong.png" alt="Project" />
+                        </a>
+                      </div>
+                      
+                      <div class="project_info">
+                        <i class="fab fa-python"></i> Pong-game
+                      </div>
+                      <a href="https://github.com/arianSalehiAbari/Pong" target="_blank" class="project_btn">
+                        <i class="fab fa-github"></i> Github
+                      </a> 
+                    </div>
+                    <!-- / Project 6 -->
+                  </div>
+                </div>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">                        
+
+                <a href="mailto:arian99@my.yorku.ca" class="footer__link">arian99@my.yorku.ca</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" target="_blank" href="https://github.com/salehiarian">
+                            <i class="fab fa-github"></i> 
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/arian-salehi/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        
+
+        <script src="js/index.js"></script>
+
+</body>
+</html>
