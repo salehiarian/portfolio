@@ -522,6 +522,10 @@ header {
   }
   
 
+@media (max-width: 600px) {
+    
+}
+
 /* footer */
 .footer {
     background: #111;
